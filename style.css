@@ -86,7 +86,6 @@ h1 {
     pointer-events: none;
 }
 
-
 .result-container {
     width: 80%;
     padding: 2rem;
@@ -114,10 +113,12 @@ h1 {
     border-right: 1px solid var(--text-color);
     font-size: 0.9rem;
 
-    span {
-        font-size: 1.3rem;
-        text-align: center;
-    }
+    
+}
+
+.result-container p span {
+    font-size: 1.3rem;
+    text-align: center;
 }
 
 .result-container #isp-box {
@@ -135,8 +136,6 @@ footer {
     bottom: 0;
     z-index: 2;
     width: 100%;
-
-    
 }
 
 footer .attribution {
@@ -192,13 +191,11 @@ footer .attribution a {
 
     .input-control input {
         width: 100%;
-    };
+    }
 
     .result-container {
         flex-direction: column;
         padding: 1rem 0;
-        
-        
     }
 
     .result-container p {
