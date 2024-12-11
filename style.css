@@ -132,10 +132,11 @@ h1 {
 }
 
 footer {
+    width: 100%;
     position: absolute;
     bottom: 0;
-    z-index: 2;
-    width: 100%;
+    z-index: 1;
+    pointer-events: none;
 }
 
 footer .attribution {
@@ -149,6 +150,7 @@ footer .attribution {
 footer .attribution a {
     margin: 0 0.5rem;
     color: #242424;
+    pointer-events: all;
 }
 
 @keyframes fadeIn {
@@ -173,9 +175,6 @@ footer .attribution a {
 }
 
 @media screen and (max-width: 900px) {
-    body {
-        height: 100%;
-    }
 
     .top-container {
         height: 40vh;
