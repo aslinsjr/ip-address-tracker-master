@@ -19,12 +19,12 @@ Frontend Mentor challenges help improve my coding skills by building realistic p
 
 ### Screenshot
 
-![](./fireshot.jpg)
+![](./fireshot.png)
 
 ### Links
 
-- Solution URL: [Repository](https://your-solution-url.com)
-- Live Site URL: [Page](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/aslinsjr/ip-address-tracker-master)
+- Live Site URL: [Page](https://aslinsjr.github.io/ip-address-tracker-master/)
 
 ## My process
 
@@ -33,7 +33,6 @@ Frontend Mentor challenges help improve my coding skills by building realistic p
 - Semantic HTML5
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - JavaScript
 
 ### What I learned

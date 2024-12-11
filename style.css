@@ -33,7 +33,7 @@ body {
 }
 
 .top-container {
-    background-image: url(/images/pattern-bg-desktop.png);
+    background-image: url(/pattern-bg-desktop.png);
     height: 60%;
     display: flex;
     flex-direction: column;
