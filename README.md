@@ -19,7 +19,7 @@ Frontend Mentor challenges help improve my coding skills by building realistic p
 
 ### Screenshot
 
-![](./fireshot.png)
+![](./images/fireshot.png)
 
 ### Links
 
