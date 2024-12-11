@@ -24,14 +24,15 @@ async function getLocation(ip) {
 }
 
 function renderMap(lat, lng) {
-    let map = L.map('map').setView([lat, lng], 10);
+    let map = L.map('map', {
+        zoomControl: false
+    }).setView([lat, lng], 10);
 
     let myIcon = L.icon({
         iconUrl: './images/icon-location.svg'
     });
 
     L.marker([lat, lng], { icon: myIcon }).addTo(map);
-
 
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 19,
@@ -55,7 +56,7 @@ ipInput.addEventListener("change", (e) => {
     submitBtn.addEventListener("submit", () => {
         if (sessionStorage.getItem("ip-value")) {
             sessionStorage.clear()
-            
+
         } else {
             if (ipValue !== "") {
                 sessionStorage.setItem("ip-value", ipValue)
