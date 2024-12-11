@@ -187,26 +187,24 @@ footer {
 
     .input-control {
         width: 80%;
-    }
 
-    .input-control input {
-        width: 100%;
-    };
+        input {
+            width: 100%;
+        };
+    }
 
     .result-container {
         flex-direction: column;
         padding: 1rem 0;
         
-        
-    }
+        p {
+            border-right: none;
+            font-size: 0.7rem;
+            height: 4rem;
 
-    .result-container p {
-        border-right: none;
-        font-size: 0.7rem;
-        height: 4rem;
-    }
-
-    .result-container p span {
-        font-size: 1rem;
+            span {
+                font-size: 1rem;
+            }
+        }
     }
 }
